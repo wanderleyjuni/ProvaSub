@@ -1,3 +1,5 @@
+#Aluno:Wanderley Nolasco Damasceno Junior
+#Matricula:2024013044
 # -*- coding: utf-8 -*-
 """Untitled1.ipynb
 
@@ -21,9 +23,9 @@ pdf.add_page()
 
 pdf.set_font("Arial", size=12)
 
-pdf.cell(400, 100, txt="Arquivo PDF com Números", ln=True, align="C")
+pdf.cell(400, 10, txt="Arquivo PDF com Números", ln=True, align="C")
 
-numeros = [10, 20, 30, 40, 50, 60, 70]
+numeros = [10, 20, 30, 40, 50, 60, 90]
 for numero in numeros:
     pdf.cell(400, 10, txt=str(numero), ln=True)
 
@@ -43,7 +45,7 @@ doc = Document()
 
 doc.add_heading('Arquivo DOCX com Números', 0)
 
-numeros = [80, 40, 30, 80, 50, 60, 50]
+numeros = [80, 40, 30, 80, 40, 60, 90]
 for numero in numeros:
     doc.add_paragraph(str(numero))
 
